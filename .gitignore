@@ -1,0 +1,34 @@
+# Models & checkpoints
+*.pt
+*.pth
+*.onnx
+
+# Logs & outputs
+logs/
+exported/
+depth_data/
+depth_logs/
+rec_cam/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Isaac Gym (external dependency)
+isaacgym/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Conda
+.env/
